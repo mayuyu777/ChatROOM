@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 :root {
-	--dark-color-a: #667aff;
-	--dark-color-b: #7386ff;
-	--light-color: #e6e9ff;
-	--success-color: #5cb85c;
+	--dark-color-b: #020202;
+	--light-color: #000000;
+	--success-color: #ffffff;
 	--error-color: #d9534f;
 }
 
@@ -12,6 +11,7 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	
 }
 
 body {
@@ -32,7 +32,7 @@ a {
 .btn {
 	cursor: pointer;
 	padding: 5px 15px;
-	background: var(--light-color);
+	background: rgb(82, 117, 82);
 	color: var(--dark-color-a);
 	border: 0;
 	font-size: 17px;
@@ -42,7 +42,7 @@ a {
 
 .chat-container {
 	max-width: 1100px;
-	background: #fff;
+	background: rgb(45, 61, 43);
 	margin: 30px auto;
 	overflow: hidden;
 }
@@ -64,7 +64,7 @@ a {
 }
 
 .chat-sidebar {
-	background: var(--dark-color-b);
+	background: rgb(23, 36, 24);
 	color: #fff;
 	padding: 20px 20px 60px;
 	overflow-y: scroll;
@@ -94,7 +94,7 @@ a {
 .chat-messages .message {
 	padding: 10px;
 	margin-bottom: 15px;
-	background-color: var(--light-color);
+	background-color: rgb(200, 209, 198);
 	border-radius: 5px;
 	overflow-wrap: break-word;
 }
@@ -129,17 +129,18 @@ a {
 
 /* Join Page */
 .join-container {
-	max-width: 500px;
-	margin: 80px auto;
+	
 	color: #fff;
+	margin-top: 10pc;
 }
 
 .join-header {
-	text-align: center;
 	padding: 20px;
 	background: var(--dark-color-a);
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
+	color: rgb(255, 255, 255);
+	font-size: 2pc;
 }
 
 .join-main {
@@ -153,10 +154,11 @@ a {
 
 .join-main .form-control {
 	margin-bottom: 20px;
+	
 }
 
 .join-main label {
-	display: block;
+	color: black;
 	margin-bottom: 5px;
 }
 
@@ -164,7 +166,7 @@ a {
 	font-size: 16px;
 	padding: 5px;
 	height: 40px;
-	width: 100%;
+	width: 15pc;
 }
 
 .join-main select {
@@ -175,8 +177,12 @@ a {
 }
 
 .join-main .btn {
-	margin-top: 20px;
-	width: 100%;
+	color: white;
+	margin-left: 2pc;
+	background-color: rgb(50, 146, 50);
+	height: 2.5pc;
+	width: 14.5pc;
+	border-radius: 3px;
 }
 
 @media (max-width: 700px) {
